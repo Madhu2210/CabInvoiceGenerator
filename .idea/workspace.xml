@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ffa1034-d0ab-45e6-9b94-169cb42fa50a" name="Changes" comment="" />
+    <list default="true" id="5ffa1034-d0ab-45e6-9b94-169cb42fa50a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../HotelReservationSystem/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HotelReservationSystem/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReservationSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HotelReservationSystem/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReservationSystem/src/main/java/com/bridglabz/Hotel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReservationSystem/src/main/java/com/bridglabz/HotelReservationSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReservationSystem/src/test/java/Com/bridglabz/HotelReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HotelReservationSystem/src/test/java/Com/bridglabz/HotelReservationTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
