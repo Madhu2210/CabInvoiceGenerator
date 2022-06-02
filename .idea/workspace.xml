@@ -10,6 +10,9 @@
       <change beforePath="$PROJECT_DIR$/../HotelReservationSystem/src/main/java/com/bridglabz/Hotel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HotelReservationSystem/src/main/java/com/bridglabz/HotelReservationSystem.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HotelReservationSystem/src/test/java/Com/bridglabz/HotelReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HotelReservationSystem/src/test/java/Com/bridglabz/HotelReservationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridglabz/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridglabz/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridglabz/InvoiceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridglabz/InvoiceServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,6 +45,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bridglabz" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.InvoiceServiceTest">
     <configuration name="InvoiceService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridglabz.InvoiceService" />

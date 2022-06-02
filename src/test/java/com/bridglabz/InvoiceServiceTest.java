@@ -3,6 +3,9 @@ package com.bridglabz;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class InvoiceServiceTest {
     InvoiceService invoiceService = new InvoiceService();
 
@@ -23,14 +26,16 @@ public class InvoiceServiceTest {
     }
 
     @Test
-    public void givenMultipleRides_ShouldReturnTotalFare() {
+    public void givenMultipleRides_ShouldReturnInvoiceSummary() {
         Ride[] rides = {
                 new Ride(2.0, 5),
                 new Ride(0.1, 1),
         };
-        double totalFare = invoiceService.calculateFare(rides);
-        Assert.assertEquals(30, totalFare, 0.0);
+        InvoiceSummary summary = invoiceService.calculateFare(rides);
+        InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 30.0);
+        Assert.assertEquals(expectedInvoiceSummary, summary);
     }
-
 }
+
+
 

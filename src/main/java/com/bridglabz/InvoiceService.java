@@ -1,5 +1,7 @@
 package com.bridglabz;
 
+import java.util.List;
+
 public class InvoiceService {
     private static final double COST_PER_KM = 10;
     private static final int COST_PER_MINUTE = 1;
@@ -16,11 +18,12 @@ public class InvoiceService {
         return totalFare;
     }
 
-    public double calculateFare(Ride[] rides) {
-        double totalFare = 0;
-        for (Ride ride : rides) {
-            totalFare += calculateFare(ride.getDistance(), ride.getTime());
+    public InvoiceSummary calculateFare(Ride[] rides) {
+        double totalFare=0;
+        for (Ride ride: rides) {
+            totalFare += this.calculateFare(ride.getDistance(), ride.getTime());
         }
-        return totalFare;
+        return new InvoiceSummary(rides.length, totalFare);
+        }
     }
-}
+
