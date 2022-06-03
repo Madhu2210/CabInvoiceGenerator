@@ -25,5 +25,27 @@ public class InvoiceService {
         }
         return new InvoiceSummary(rides.length, totalFare);
         }
+    public double calculateFares(Ride[] rides) {
+        double totalFare=0.0;
+        for(Ride ride:rides)
+        {
+            totalFare+=calculateFare(ride.getDistance(),ride.getTime());
+        }
+        return totalFare;
     }
+
+    public InvoiceSummary GetInvoiceSummary(String userName) {
+
+        List<Ride> list=UserAccount.userMap.get(userName);
+        double totalFare=0.0;
+        int rideCount=0;
+        for(Ride ride:list)
+        {
+            totalFare+=calculateFare(ride.getDistance(),ride.getTime());
+            rideCount++;
+        }
+
+        return new InvoiceSummary(rideCount,totalFare);
+    }
+}
 

@@ -111,9 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceServiceTest.givenUserID_whenCalculateFare_shouldReturnAggregareSummery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDCab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridglabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridglabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridglabz.InvoiceServiceTest" />
+      <option name="METHOD_NAME" value="givenUserID_whenCalculateFare_shouldReturnAggregareSummery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InvoiceServiceTest" />
+        <item itemvalue="JUnit.InvoiceServiceTest.givenUserID_whenCalculateFare_shouldReturnAggregareSummery" />
         <item itemvalue="JUnit.InvoiceServiceTest.givenDistanceAndTime_whenCalculateFare_shouldReturnTotalFare" />
         <item itemvalue="Application.InvoiceService" />
         <item itemvalue="JUnit.InvoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare" />
