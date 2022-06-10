@@ -12,6 +12,9 @@
       <change beforePath="$PROJECT_DIR$/../HotelReservationSystem/src/test/java/Com/bridglabz/HotelReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HotelReservationSystem/src/test/java/Com/bridglabz/HotelReservationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridglabz/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridglabz/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridglabz/InvoiceSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridglabz/InvoiceSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridglabz/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridglabz/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridglabz/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridglabz/UserAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridglabz/InvoiceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridglabz/InvoiceServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InvoiceServiceTest.givenMultipleRides_ShouldReturnInvoiceSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDCab" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +92,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridglabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridglabz.InvoiceServiceTest" />
-      <option name="METHOD_NAME" value="givenDistanceAndTime_ShouldReturnTotalFare" />
+      <option name="METHOD_NAME" value="givenMultipleRides_ShouldReturnInvoiceSummary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvoiceServiceTest.givenDistanceAndTime_whenCalculateFare_shouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InvoiceServiceTest.givenUserIDPremiumRides_whenCalculateFare_shouldReturnAggregateSummery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDCab" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +108,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridglabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridglabz.InvoiceServiceTest" />
-      <option name="METHOD_NAME" value="givenDistanceAndTime_whenCalculateFare_shouldReturnTotalFare" />
+      <option name="METHOD_NAME" value="givenUserIDPremiumRides_whenCalculateFare_shouldReturnAggregateSummery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvoiceServiceTest.givenUserID_whenCalculateFare_shouldReturnAggregareSummery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InvoiceServiceTest.givenUserID_whenCalculateFare_shouldReturnAggregateSummery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDCab" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridglabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridglabz.InvoiceServiceTest" />
-      <option name="METHOD_NAME" value="givenUserID_whenCalculateFare_shouldReturnAggregareSummery" />
+      <option name="METHOD_NAME" value="givenUserID_whenCalculateFare_shouldReturnAggregateSummery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InvoiceServiceTest" />
-        <item itemvalue="JUnit.InvoiceServiceTest.givenUserID_whenCalculateFare_shouldReturnAggregareSummery" />
-        <item itemvalue="JUnit.InvoiceServiceTest.givenDistanceAndTime_whenCalculateFare_shouldReturnTotalFare" />
+        <item itemvalue="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnInvoiceSummary" />
+        <item itemvalue="JUnit.InvoiceServiceTest.givenUserID_whenCalculateFare_shouldReturnAggregateSummery" />
+        <item itemvalue="JUnit.InvoiceServiceTest.givenUserIDPremiumRides_whenCalculateFare_shouldReturnAggregateSummery" />
         <item itemvalue="Application.InvoiceService" />
-        <item itemvalue="JUnit.InvoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare" />
       </list>
     </recent_temporary>
   </component>

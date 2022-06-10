@@ -23,4 +23,12 @@ public class InvoiceSummary {
                 Objects.equals(averageFare, that.averageFare);
     }
 
+    @Override
+    public String toString() {
+        return "InvoiceSummary{" +
+                "numOfRides=" + numOfRides +
+                ", totalFare=" + totalFare +
+                ", averageFare=" + averageFare +
+                '}';
+    }
 }

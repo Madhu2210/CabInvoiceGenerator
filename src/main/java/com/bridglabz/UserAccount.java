@@ -6,9 +6,8 @@ import java.util.Map;
 
 public class UserAccount {
     public static Map<String, List<Ride>> userMap=new HashMap<>();
-
-
     public UserAccount(String userName, List<Ride> rideList) {
+
         userMap.put(userName,rideList);
     }
 }
